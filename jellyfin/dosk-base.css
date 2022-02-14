@@ -1,0 +1,61 @@
+@media only screen and (max-width: 40em) {
+  .sections.homeSectionsContainer {
+    margin-top: 2em !important;
+  }
+  .sections.homeSectionsContainer::before, .sections.homeSectionsContainer::after {
+    display: none !important;
+  }
+}
+.skinHeader {
+  margin: 0.8em;
+  border-radius: 1em;
+}
+.skinHeader.headroom--unpinned {
+  margin: 0;
+}
+.skinHeader.semiTransparent {
+  margin: initial;
+  border-radius: initial;
+}
+.pageTitleWithDefaultLogo {
+  zoom: 55%;
+  background-image: url(https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg);
+}
+.sections.homeSectionsContainer {
+  margin-top: calc(33vw - 4em);
+}
+.sections.homeSectionsContainer::before, .sections.homeSectionsContainer::after {
+  top: 0;
+  opacity: 0.7;
+  display: flex;
+  width: 100%;
+  height: 33vw;
+  font-size: 5em;
+  position: absolute;
+}
+.sections.homeSectionsContainer::before {
+  content: '';
+  background-color: #000;
+  animation-duration: 60s;
+  animation-name: flymove;
+  background-size: 100vw 50vw;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  box-shadow: 0px 20px 40px 10px #000;
+  background-image: url(https://cdn.dosk.win/netflix/image);
+}
+.sections.homeSectionsContainer::after {
+  align-items: center;
+  font-family: fantasy;
+  justify-content: center;
+  content: 'JUST FINE';
+  box-shadow: inset 0px -20px 20px 0px #000;
+}
+@keyframes flymove {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 100vw 50vw;
+  }
+}
