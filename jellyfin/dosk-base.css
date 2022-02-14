@@ -6,6 +6,22 @@
     display: none !important;
   }
 }
+.mdl-slider::-webkit-slider-thumb {
+  background: rgb(var(--theme-accent-text-color));
+}
+.mdl-slider-background-lower {
+  background: rgb(var(--theme-accent-text-color));
+}
+.actionSheetContent {
+  zoom: 0.8;
+  padding: 0 !important;
+}
+.itemProgressBar {
+  margin: 0.6em;
+  overflow: hidden;
+  border-radius: 1em;
+  width: calc(100% - 1.2em) !important;
+}
 .skinHeader {
   margin: 0.8em;
   border-radius: 1em;
