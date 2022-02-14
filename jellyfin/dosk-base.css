@@ -19,7 +19,7 @@
 }
 .pageTitleWithDefaultLogo {
   zoom: 55%;
-  background-image: url(https://www.plex.tv/wp-content/themes/plex/assets/img/plex-logo.svg);
+  background-image: url(plex-logo.svg);
 }
 .sections.homeSectionsContainer {
   margin-top: calc(33vw - 4em);
@@ -40,9 +40,9 @@
   animation-name: flymove;
   background-size: 100vw 50vw;
   animation-timing-function: linear;
+  background-image: url(preview.jpg);
   animation-iteration-count: infinite;
   box-shadow: 0px 20px 40px 10px #000;
-  background-image: url(https://cdn.dosk.win/netflix/image);
 }
 .sections.homeSectionsContainer::after {
   align-items: center;
