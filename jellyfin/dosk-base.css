@@ -38,7 +38,7 @@
 .skinHeader.headroom--unpinned {
   margin: 0;
 }
-.skinHeader.semiTransparent {
+.skinHeader.semiTransparent, .skinHeader.osdHeader {
   margin: initial;
   border-radius: initial;
 }
