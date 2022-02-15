@@ -25,6 +25,12 @@
 [data-action="resume"]+.itemProgressBar {
   position: absolute;
 }
+.sliderBubble {
+  opacity: 0.7;
+  left: 346.666px;
+  font-size: 0.6em;
+  border-radius: 1em;
+}
 .skinHeader {
   margin: 0.8em;
   border-radius: 1em;
